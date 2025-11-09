@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import styles from "./Photo-comments.module.css";
+import styles from "./photo-comments.module.css";
 import { useUser } from '@/context/user-context';
 import { Comment } from '@/actions/photo-get';
 import PhotoCommentsForm from './photo-comments-form';
