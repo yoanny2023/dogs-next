@@ -1,0 +1,19 @@
+import LoginForm from '@/components/login/login-form'
+import React from 'react'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Login | Dogs",
+  description: "Logue na sua conta no site Dogs."
+}
+
+async function LoginPage() {
+  return (
+    <section className='animeLeft'>
+      <h1 className='title'>Login</h1>
+      <LoginForm />
+    </section>
+  )
+}
+
+export default LoginPage
